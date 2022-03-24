@@ -249,7 +249,12 @@ def MolFormatConversion(input_file:str,output_file:str,input_format="xyz",output
     print('%d molecules converted'%(i+1)) 
     
     
-    
+def genDescDataset(physorg_desc,physorg_desc_names,target,target_name='ddG(kcal/mol)'):
+    phyorg_desc_dataset = np.concatenate([physorg_desc,target.reshape(-1,1)],axis=1)
+    title_of_dataset = list(physorg_desc_names) + [target_name]
+    desc_dataset = pd.DataFrame.from_records(phyorg_desc_dataset)
+    desc_dataset.columns = title_of_dataset
+    return desc_dataset    
     
     
     
