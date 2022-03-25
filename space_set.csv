@@ -1,0 +1,11 @@
+,Biaryl,Olefin,TDG,Additive,Solvent,Current,Temperature,ddG,ee
+0,O=Cc1cc(C(F)(F)F)ccc1-c1cccc2ccccc12,C=CC(=O)Oc1cccc(OC)c1,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,60,2.578851502,0.96
+1,CCc1ccccc1-c1cc(F)ccc1C=O,C=CC(=O)Oc1ccc(F)cc1,CC(C)(C)[C@H](N)C(=O)O,O=C1C=CC(=O)C=C1,CC(=O)O,1,60,3.507522458,0.99
+2,Cc1ccccc1-c1ccccc1C=O,C=CC(=O)Oc1ccc(C(C)=O)cc1,CC(C)(C)[C@H](N)C(=O)O,O=C1C=CC(=O)C=C1,CC(=O)O,1,60,3.507522458,0.99
+3,Cc1ccccc1-c1ccccc1C=O,C=CC(=O)Oc1ccc(F)cc1,CC(C)(C)[C@H](N)C(=O)O,O=C1C=CC(=O)C=C1,CC(=O)O,1,60,3.044881525,0.98
+4,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)Oc1ccc(F)cc1,CC(C)(C)[C@H](N)C(=O)O,O=P([O-])(O)O.[K+],CC(=O)O,1,60,3.04488153,0.98
+5,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)Oc1cccc(OC)c1,N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O,,CC(=O)O,1,60,0.3812557,0.28
+6,CCc1ccccc1-c1cc(F)ccc1C=O,C=CC(=O)Oc1cccc(OC)c1,N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O,O=C(O[Na])c1ccccc1,CC(=O)O,1,60,0.51476451,0.37
+7,Cc1ccccc1-c1ccccc1C=O,C=CC(=O)Oc1cccc(OC)c1,CC[C@H](C)[C@H](N)C(=O)O,O=C([O-])[O-].[K+].[K+],CC(=O)O,1,60,1.05069015,0.66
+8,Cc1ccccc1-c1cc(F)ccc1C=O,C=CC(=O)Oc1cccc(OC)c1,CC[C@H](C)[C@H](N)C(=O)O,,CC(=O)O,1,60,0.593311694,0.42
+9,CCc1ccccc1-c1cc(F)ccc1C=O,C=CC(=O)Oc1cccc(OC)c1,CC(C)[C@H](N)C(=O)O,O=C1C=CC(=O)C=C1,CC(=O)O,1,60,1.766687124,0.87
