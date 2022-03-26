@@ -5,7 +5,7 @@ Created on Fri Mar 25 20:54:13 2022
 @author: LiCheng_Xu
 """
 import numpy as np
-
+import matplotlib.pyplot as plt
 def box_cox_trans(x,lambda_):
     '''
     Box-Cox Transformation
@@ -95,4 +95,25 @@ def ddG2ee(ddG,T):
     ddG = ddG*1000*4.18
     ee = (1-np.exp(ddG/(8.314*T)))/(1+np.exp(ddG/(8.314*T)))
     return np.abs(ee)
+def vis_transformed_result(transformed_target,algorithm,color):
+    grouped_value = {0.1:0,0.2:0,0.3:0,0.4:0,0.5:0,0.6:0,0.7:0,0.8:0,0.9:0,1:0}
+    for target in transformed_target:
+        for th in grouped_value:
+            if target < th:
+                grouped_value[th] += 1
+                break
 
+    x = np.array(list(grouped_value.keys()))
+    y = np.array([grouped_value[item] for item in grouped_value])
+    skew_score = np.abs(np.mean(transformed_target)-np.median(transformed_target))
+    plt.figure(figsize=(10,5))
+    plt.bar(x,y,width=0.05,color=color)
+    plt.xlabel("y",fontsize=21)
+    plt.ylabel("Count",fontsize=21)
+    plt.xticks([0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.0],["0.1","0.2","0.3","0.4","0.5","0.6","0.7","0.8","0.9","1.0"],fontsize=19)
+    y_range = list(range(0,max(y)//10 * 10 + 20,10))
+    plt.yticks(y_range,list(map(str,y_range)),fontsize=19)
+    plt.text(0.05,y_range[-2]+5,"Skew Score: %.3f"%skew_score,fontsize=19)
+    plt.title('%s Transferred Target Distribution'%algorithm,fontsize=21)
+    plt.tick_params(left='on',bottom='on')
+    plt.tight_layout()
