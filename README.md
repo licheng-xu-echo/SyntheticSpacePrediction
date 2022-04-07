@@ -31,7 +31,7 @@ python -m ipykernel install --user --name py37 --display-name "Python [conda env
 ```
 It takes about 15 minutes to install these third-party python packages in our station.
 # Demo & Instructions for use
-Here we provide several notebooks to demonstrate how to vectorize the reaction dataset, perform cross-validation, transform the unbalanced target and predict the whole synthetic space using $\Delta$-learning approach. 
+Here we provide several notebooks to demonstrate how to vectorize the reaction dataset, perform cross-validation, transform the unbalanced target and predict the whole synthetic space using Δ-learning approach. 
 
 [Notebook 1](https://github.com/licheng-xu-echo/SyntheticSpacePrediction/blob/main/notebook/1-Cross-Validation-of-ML-Algorithms-and-Descriptors.ipynb) demonstrates how to use demo data to perform cross-validation of ML algorithms and descriptors. It takes roughly 1 hour 30 minutes to run this notebook in our station (AMD Ryzen 3970X 32-core processor).
 
