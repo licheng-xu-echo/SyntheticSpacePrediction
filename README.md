@@ -16,7 +16,7 @@ scikit-learn=0.23.2
 seaborn=0.11.1
 xgboost=1.3.3
 ```
-We suggest using Anaconda to build the python environment, as there are several default packages used in the scripts but not mentioned above. All test are executed under Ubuntu 18.04.
+We suggest using Anaconda to build the python environment, as there are several default packages used in the scripts but not mentioned above. All test were executed under Ubuntu 18.04.
 # Installation guide
 The Anaconda can be download in [here](https://www.anaconda.com/products/distribution). The third-party python packages mentioned above can be installed follow the commands below. (The specific version of these packages are recommended to reproduce all results in the paper but not mandatory.)
 ```
