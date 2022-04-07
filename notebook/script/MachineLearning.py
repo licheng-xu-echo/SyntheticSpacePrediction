@@ -66,26 +66,26 @@ def genCountMap(_smi_set,synthetic_space,point_pred_map,point_error_map,species=
             _ave_count_map[smi][key] = ave
     return _count_map,_up_count_map,_down_count_map,_ave_count_map    
     
-def vis_distribution(ave_count_map,smiles,color='deepskyblue'):
+def vis_distribution(ave_count_map,sel_smi_color_map,title=''):
     plt.figure(figsize=(14,5))
     x = np.array([10,20,30,40,50,60,70,80,90,100])
     x_smooth = np.linspace(x.min(), x.max(), 100)
-    y_ave = np.array([ave_count_map[smiles][key] for key in [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]])
-    y_ave_smooth = make_interp_spline(x,y_ave)(x_smooth)
-    y_ave_smooth = np.where(y_ave_smooth>0,y_ave_smooth,0)
-
-
-    plt.plot(x_smooth, y_ave_smooth,c=color,alpha=0.9)
-    plt.fill_between(x_smooth,y_ave_smooth,np.zeros(len(y_ave_smooth)),color=color,alpha=0.1)
+    for smi in sel_smi_color_map:
+        y_ave = np.array([ave_count_map[smi][key] for key in [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1]])
+        y_ave_smooth = make_interp_spline(x,y_ave)(x_smooth)
+        y_ave_smooth = np.where(y_ave_smooth>0,y_ave_smooth,0)
+        plt.plot(x_smooth, y_ave_smooth,c=sel_smi_color_map[smi],alpha=0.9)
+        plt.fill_between(x_smooth,y_ave_smooth,np.zeros(len(y_ave_smooth)),color=sel_smi_color_map[smi],alpha=0.1)
     plt.xticks([10,20,30,40,50,60,70,80,90,100],['<10','10-20','20-30','30-40','40-50',
                                                  '50-60','60-70','70-80','80-90','>90'],fontsize=14)
     plt.yticks([0,10000,20000,30000,40000],['0','10000','20000','30000','40000'],fontsize=14)
     plt.xlabel('ee (%)',fontsize=16)
     plt.ylabel('Count',fontsize=16)
     plt.tick_params(bottom='on',left='on')
-    plt.title(smiles,fontsize=16)
+    plt.title(title,fontsize=16)
     plt.tight_layout()
     plt.show()
+    
 def DeltaLearningPrediction(base_x,rest_x,space_x,base_y,rest_y,base_model,specific_model,base_model_only_point_idx,
                             selidx2idxs_map,k_fold_num,random_seed=2022):
     
