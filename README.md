@@ -39,7 +39,7 @@ Here we provide several notebooks to demonstrate how to vectorize the reaction d
 
 [Notebook 3](https://github.com/licheng-xu-echo/SyntheticSpacePrediction/blob/main/notebook/3-Holistic-Prediction-over-Synthetic-Space.ipynb) demonstrate how to use available variables to construct synthetic space and perform prediction over this massive synthetic space. The results in Fig. 4 can be provided with this notebook. Duo to file size limitations, we don't provide prediction results of the massive synthetic space of 889056 possibilities directly, but rather provide this notebook to generate these predictions. It takes roughly 20 minutes to run this notebook in our station.
 
-[Notebook 4](https://github.com/licheng-xu-echo/SyntheticSpacePrediction/blob/main/notebook/4-Target-Transformation.ipynb) demonstrate how to perform 4 different transformation methods at unbalanced target. It takes roughly 30 seconds to run this notebook in our station. It takes less than 5 seconds to run this notebook in our station.
+[Notebook 4](https://github.com/licheng-xu-echo/SyntheticSpacePrediction/blob/main/notebook/4-Target-Transformation.ipynb) demonstrate how to perform 4 different transformation methods at unbalanced target. It takes less than 5 seconds to run this notebook in our station.
 
 
 # How to cite
