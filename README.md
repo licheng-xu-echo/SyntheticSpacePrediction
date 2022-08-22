@@ -50,7 +50,7 @@ Here we provide several notebooks to demonstrate how to vectorize the reaction d
 # Check list of compounds in the paper
 A check list table is provided to match the compound indices in the paper and the indices of *.xyz* files in the repository which are used to generate descriptors.
 
-![compoundlist](/image/2.png)
+![compoundlist](/image/1.png)
 
 | Compound index in the paper | File index in the repository| | Compound index in the paper | File index in the repository|
 | :----: | :----: | :----: | :----: | :----: |
