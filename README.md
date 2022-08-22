@@ -16,6 +16,7 @@ scikit-learn=0.23.2
 seaborn=0.11.1
 xgboost=1.3.3
 pytorch=1.9.1
+matplotlib=3.4.2
 ```
 We suggest using Anaconda to build the python environment, as there are several default packages used in the scripts but not mentioned above. All test were executed under Ubuntu 18.04.
 # Installation guide
