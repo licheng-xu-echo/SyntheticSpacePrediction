@@ -48,7 +48,7 @@ Here we provide several notebooks to demonstrate how to vectorize the reaction d
 [Notebook 6](https://github.com/licheng-xu-echo/SyntheticSpacePrediction/blob/main/6-Comparison-of-Different-Vectorization-Approach.ipynb) shows the model performance of different vectorization approaches (with or without transition state information). It takes roughly 10 minutes to run this notebook in our station.
 
 # Check list of compounds in the paper
-A check list table is provided to match the compound indices in the paper and the indices of *.xyz* files in the repository which are used to generate descriptors.
+A check list table is provided to match the compound indices in the paper and the indices of *.xyz* files in the repository which are used to generate descriptors and zipped in the *Coordinates.zip*.
 
 ![compoundlist](/image/1.png#pic_center)
 
