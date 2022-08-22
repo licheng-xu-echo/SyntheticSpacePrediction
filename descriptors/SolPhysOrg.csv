@@ -1,0 +1,7 @@
+﻿SMILES,Molecular Weight,XLogP3-AA,Topological Polar Surface Area Å²,Density (g/mL),Molar Volume (mL/mol),Refractive Index,Dipole Moment (D),Melting Point (°C),Boiling Point (°C)
+CC#N,41.05,0,23.8,0.782,52.5,1.344,3.44,-44,82
+CC(=O)O,60.05,-0.2,37.3,1.051,57.1,1.372,1.68,16,117
+Cc1ccccc1,92.14,2.7,0,0.867,106.3,1.497,0.31,-95,92
+ClCCCl,98.96,1.5,0,1.256,78.8,1.444,1.83,-35,84
+OC(C(F)(F)F)C(F)(F)F,168.04,1.7,20.2,1.596,105.3,1.275,2.05,-3,58
+OCC(F)(F)F,100.04,0.4,20.2,1.393,71.8,1.291,2.52,-45,78

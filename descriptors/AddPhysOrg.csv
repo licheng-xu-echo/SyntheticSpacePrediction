@@ -1,0 +1,15 @@
+﻿SMILES,Molecular Weight,Topological Polar Surface Area Å²
+,0,0
+CC(=O)O[K],98.14,40.1
+CC(=O)O[Na],82.03,40.1
+CC(C)(C)C(=O)O[K],140.22,40.1
+CC(C)(C)C(=O)O[Na],124.11,40.1
+CCCC[N+](CCCC)(CCCC)CCCC.F[P-](F)(F)(F)(F)F,387.43,0
+O=C(O[Na])c1ccccc1,144.1,40.1
+O=C([O-])[O-].[K+].[K+],138.205,63.2
+O=C([O-])[O-].[Na+].[Na+],105.988,63.2
+O=C1C=CC(=O)C=C1,108.09,34.1
+O=P([O-])(O)O.[K+],136.086,80.6
+O=S(=O)(O[Na])C(F)(F)F,172.06,65.6
+[Li]OC(C)=O,66,40.1
+[Li]O[Cl+3]([O-])([O-])[O-],106.4,74.3
