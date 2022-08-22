@@ -5,13 +5,13 @@ Asymmetric catalysis provides a central strategy for molecular synthesis. Due to
 # System requirements
 In order to run Jupyter Notebook involved in this repository, several third-party python packages are required. The versions of these packages in our station are listed below.
 ```
-ase=3.21.0
-dscribe=1.0.0
+ase=3.22.0
+dscribe=1.1.0
 python=3.7.13
 numpy=1.19.2
 openbabel=3.1.1
 pandas=1.3.5
-rdkit=2019.09.3
+rdkit=2021.03.5
 scikit-learn=0.23.2
 seaborn=0.11.1
 xgboost=1.3.3
