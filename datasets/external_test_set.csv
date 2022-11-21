@@ -1,0 +1,11 @@
+,Biaryl,Olefin,Ligand,Additive,Solvent,Current,Ligand Concentration,Additive eq,Temperature,ddG,ee
+0,Cc1ccc(C=O)c(-c2cccc3ccccc23)c1,C=CC(=O)OCCCC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,2.772851543,0.97
+1,O=Cc1cc(Cl)ccc1-c1cccc2ccccc12,C=CC(=O)OCCCC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,2.772851543,0.97
+2,N#Cc1ccc(-c2cccc3ccccc23)c(C=O)c1,C=CC(=O)OCCCC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,3.044881525,0.98
+3,O=Cc1cc(O)ccc1-c1cccc2ccccc12,C=CC(=O)OCCCC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,3.044881525,0.98
+4,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)OCCCC,N[C@@H](Cc1ccc(I)cc1)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,0.439521139,0.32
+5,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)OCCCC,COC(=O)[C@@H](N)Cc1ccccc1,[Li]OC(C)=O,CC(=O)O,1,20,2,60,0.186764088,0.14
+6,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)OC(C)(C)C,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,2.578851502,0.96
+7,O=Cc1ccccc1-c1cccc2ccccc12,C=CC(=O)Oc1c(F)c(F)c(F)c(F)c1F,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,3.044881525,0.98
+8,O=Cc1ccccc1-c1cccc2ccccc12,C=C(C)C(=O)OC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,2.105885746,0.92
+9,O=Cc1ccccc1-c1cccc2ccccc12,C=C(C)C(=O)OCC,CC(C)(C)[C@H](N)C(=O)O,[Li]OC(C)=O,CC(=O)O,1,20,2,60,2.024378495,0.91
