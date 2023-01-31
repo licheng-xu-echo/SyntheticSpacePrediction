@@ -89,6 +89,6 @@ A check list table is provided to match the compound indices in the paper and th
 | **76 (new)** | Pd-complex-18  (TDG-18) | | **77 (new)** | Pd-complex-11  (TDG-11) |
 
 # How to cite
-The paper is under review.
+Please cite this paper as: Xu, L.-C.; Frey, J.; Hou, X.; Zhang, S.-Q.; Li, Y.-Y.; Oliveira, J. C. A.; Li, S.-W.; Ackermann, L.; Hong, X. *Nat. Synth.* **2023**, DOI: 10.1038/s44160-022-00233-y.
 # Contact with us
 Email: hxchem@zju.edu.cn; licheng_xu@zju.edu.cn; angellasty@zju.edu.cn
